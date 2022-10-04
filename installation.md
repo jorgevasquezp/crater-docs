@@ -85,6 +85,7 @@ $ cp .env.example .env
 $ docker-compose up -d
 $ ./docker-compose/setup.sh
 ```
+If the above commands fail, make sure to change ownership of the entire crater folder and files contained to 1000:1000.
 
 ### Step 5 : Complete installation wizard
 
